@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+.AppPrincipal{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.AppPrincipal img{
+   
+    width: 400px;
+    height: 600px;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+.Munu-Inicio h1{
+
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 1%;
+}
+
+.Munu-Inicio{
+
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 10%;
+    opacity: 0.5;
+}
+
+.ultimo-tema h1{
+
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik Mono One', sans-serif;
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+
+.ultimo-tema{
+
+    margin-top: 100px;
+    margin-left: -150px;
+}
+
+.WhatsApp{
+
+    background-color: rgb(9, 170, 35);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-left: 1230px;
+    margin-top: 515px;
+    position: fixed;
+    z-index: 1;
+}
+
+.Seccion1{
+
+    width: 100%;
+    height: 400px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Img-Poster{
+
+    width: 100%;
+}
+
+.Seccion1 img{
+
+    width: 100%;
+}
+
+
+.Seccion1 h2{
+
+   color: rgb(255, 255, 255);
+   margin-top: 420px;
+   margin-left: -440px;
+   font-size: 50px;
+   font-family: 'Stick No Bills', sans-serif;
+    
+}
+
+.Title-Seccion1 h1{
+
+    font-size: 60px;
+    margin-left: -400px;
+    color: white;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.Canciones a{
+
+    background: linear-gradient(to right, #000000, #0c0e88);
+    color: white;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    padding-top: 20px;
+    font-size: 17px;
+    font-family: 'Major Mono Display', monospace;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    transition: 0.5s;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Canciones a:hover{
+
+    background: linear-gradient(to right, #10880c, #000000);
+    box-shadow: 10px 5px 5px black;
+    
+}
+
+.Canciones {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: -400px;
+    margin-top: 50px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+body{
+    font-family: 'Roboto', 'Sans serif';
+}
+
+
+
+.bg_animate{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #000000, #030f57);
+    position: relative;
+    overflow: hidden;
+}
+
+.header_nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header_nav .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.header_nav h1{
+    color: #fff;
+    font-family: 'Gagalin';
+}
+
+.header_nav nav a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+
+.banner_title h2{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.banner_img{
+    animation: movimiento 2.5s linear infinite;
+}
+
+.banner_img img{
+    width: 600px;
+    display: block;
+}
+
+/* burbujas */
+
+.burbuja{
+    border-radius: 50%;
+    background: #ffffff;
+    opacity: .3;
+
+    position: absolute;
+    bottom: -150;
+    
+    animation: burbujas 3s linear infinite ;
+}
+
+.burbuja:nth-child(1){
+    width: 80px;
+    height: 80px;
+    left: 5%;
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(2){
+    width: 100px;
+    height: 100px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(3){
+    width: 20px;
+    height: 20px;
+    left: 15%;
+    animation-duration: 1.5s;
+    animation-delay: 7s;
+}
+
+.burbuja:nth-child(4){
+    width: 50px;
+    height: 50px;
+    left: 90%;
+    animation-duration: 6s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(5){
+    width: 70px;
+    height: 70px;
+    left: 65%;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+.burbuja:nth-child(6){
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    animation-duration: 4s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(7){
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    animation-duration: 4s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(8){
+    width: 100;
+    height: 100px;
+    left: 52%;
+    animation-duration: 5s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(9){
+    width: 65px;
+    height: 65px;
+    left: 51%;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+.burbuja:nth-child(10){
+    width: 40px;
+    height: 40px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 4s;
+}
+
+
+@keyframes burbujas{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    30%{
+        transform: translateX(30px);
+    }
+    50%{
+        opacity: .4;
+    }
+    100%{
+        bottom: 100vh;
+        opacity: 0;
+    }
+}
+
+@keyframes movimiento{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
